@@ -1,0 +1,8 @@
+elephants = [1, 2, 3];
+candies   = [1, 2, 4];
+
+for i in range(3):
+    if(candies[i] >= elephants[i]):
+        print("Yes")
+    else:
+        print("No")
